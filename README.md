@@ -2,12 +2,31 @@
 
 
 
-**live site link:** - 
+**live site link:** - https://learn-more-coading.web.app
 
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App]
+# framework:
+
+This project was bootstrapped with [Create React App],
+
+# icons:
+
+fonawesome icons, 
+
+# Authentication:
+
+Email and Password,
+
+Google and
+
+Github
+
+# routing
+
+route and private route
+
 ## Available Scripts
 
 In the project directory, you can run:
