@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -101,7 +101,7 @@ const Login = () => {
 
   return (
     <div>
-      <MenuBar />
+      <Navbar />
       <div className="w-25 mx-auto mt-5">
         <h3 className="text-success">Please Login..</h3>
         <Form onSubmit={handleLogin}>
@@ -170,7 +170,7 @@ const Login = () => {
           </Button>
         </div>
       </div>
-      {/* <Footer /> */}
+      
     </div>
   );
 };

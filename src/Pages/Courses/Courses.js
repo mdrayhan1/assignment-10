@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import Footer from "../Shared/Footer/Footer";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -16,7 +16,7 @@ const Courses = () => {
   });
   return (
     <div style={{ backgroundColor: "cornflowerblue" }}>
-      <MenuBar></MenuBar>
+      <Navbar></Navbar>
       <div className="row text-danger text-center">
         {courses?.map((course) => (
           <div className="col-md-6 g-4 shadow-sm">

@@ -3,9 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import Footer from "../Shared/Footer/Footer";
-import MenuBar from "../Shared/MenuBar/MenuBar";
-// import Footer from "../Footer/Footer";
-// import MenuBar from "../MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 import "./Details.css";
 
 const Details = (props) => {
@@ -22,7 +20,7 @@ const Details = (props) => {
 
   return (
     <div className="details-container">
-      <MenuBar></MenuBar>
+      <Navbar></Navbar>
       <div className="container mt-5 border-top pt-5">
         <div className="mb-5 row d-flex details-teams align-items-start justify-content-center text-white">
           <div className="col-md-6 text-start border-end">

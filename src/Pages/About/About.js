@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from "../Shared/Footer/Footer";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 
 const About = () => {
   return (
     <div style={{ backgroundColor: "rgb(92, 92, 92)" }}>
-      <MenuBar></MenuBar>
+      <Navbar></Navbar>
       <div>
         <div className="container mt-5">
           <div className="border-top pt-5 pb-5 row d-flex details-teams align-items-start justify-content-center text-white">

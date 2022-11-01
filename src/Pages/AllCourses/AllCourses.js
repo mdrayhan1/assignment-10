@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 import "./AllCourses.css";
 
 const AllCourses = () => {
-  //   const CourseData = useContext(courseContext);---
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -21,7 +20,6 @@ const AllCourses = () => {
       .then((data) => setCourses(data));
   });
 
-  // console.log(courses); //array of objects---
 
   return (
     <div className="container all-courses text-center">
@@ -36,7 +34,7 @@ const AllCourses = () => {
       <div className="courses ">
         <div className="row">
           {courses?.map((course) => (
-            <div className="col-md-3">
+            <div className="col-md-3" key={course.id}>
               <div className="cart">
                 <div className="logo-image">
                   <img className="img-fluid" src={course.image} alt="" />
@@ -67,7 +65,7 @@ const AllCourses = () => {
           </div>
         </div>
       </div>
-      <hr class="section-hr" />
+      <hr className="section-hr" />
       <div className="row">
         <div className="section-header text-center">
           <h1 className="mt-5">

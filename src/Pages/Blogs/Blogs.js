@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from "../Shared/Footer/Footer";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 
 const Blogs = () => {
   return (
     <div>
-      <MenuBar />
+      <Navbar />
       <div style={{ backgroundColor: "#edffff" }}>
         <div className="container">
           <h1 className="text-center mb-5">

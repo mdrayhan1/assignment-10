@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 import "./Banner.css";
 
 const Banner = () => {
@@ -9,7 +9,7 @@ const Banner = () => {
     <div className="banner-container ">
       <div className="">
         <div className="row banner d-flex align-items-center justify-content-center">
-          <MenuBar />
+          <Navbar />
           <div className="col-6">
             <h1 className="title">
               Increase Your <br /> Knowledge And Skills 

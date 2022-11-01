@@ -1,11 +1,12 @@
-import "./MenuBar.css";
+import React from "react";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import { FaUser } from "react-icons/fa";
 import { Image } from "react-bootstrap";
 
-const MenuBar = () => {
+const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
   const handleLogOut = () => {
@@ -17,7 +18,7 @@ const MenuBar = () => {
   };
 
   return (
-    <div className="MenuBar-container">
+    <div className="Navbar-container">
       <div className="container">
         <div className="row">
           <div className="col-md-2">
@@ -84,4 +85,4 @@ const MenuBar = () => {
   );
 };
 
-export default MenuBar;
+export default Navbar;

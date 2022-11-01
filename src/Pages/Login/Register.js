@@ -1,5 +1,5 @@
 import React from "react";
-import MenuBar from "../Shared/MenuBar/MenuBar";
+import Navbar from "../Shared/Navbar/Navbar";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import {
@@ -104,7 +104,7 @@ const Register = () => {
 
   return (
     <div>
-      <MenuBar />
+      <Navbar />
       <div className="w-25 mx-auto mt-5">
         <h3 className="text-primary">Please Register..</h3>
         <Form onSubmit={handleRegister}>
