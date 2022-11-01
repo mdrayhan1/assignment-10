@@ -25,12 +25,12 @@ const Blogs = () => {
             <br />
             <div className="qsn-2">
               <h2>
-                Why are you using firebase? What other options do you
-                have to implement authentication ??
+                Why are you using firebase? What other options do you have to
+                implement authentication ??
               </h2>
               <h6>
-                Ans :Google Firebase offers many features that pitch it as
-                the go-to backend development tool for web and mobile apps. It
+                Ans :Google Firebase offers many features that pitch it as the
+                go-to backend development tool for web and mobile apps. It
                 reduces development workload and time. And it's a perfect
                 prototyping tool. Firebase is simple, lightweight, friendly, and
                 industrially recognized.
@@ -41,10 +41,10 @@ const Blogs = () => {
             <div className="qsn-3">
               <h2>How does the private route work??</h2>
               <h6>
-                Ans : The react private route component renders child
-                components ( children ) if the user is logged in. If not logged
-                in the user is redirected to the /login page with the return url
-                passed in the location state property.
+                Ans : The react private route component renders child components
+                ( children ) if the user is logged in. If not logged in the user
+                is redirected to the /login page with the return url passed in
+                the location state property.
               </h6>
             </div>
             <br />
@@ -52,12 +52,12 @@ const Blogs = () => {
             <div className="qsn-4">
               <h2>What is Node? How does Node work? ??</h2>
               <h6>
-                Ans : It is a used as backend service where javascript works
-                on the server-side of the application. This way javascript is
-                used on both frontend and backend. Node. js runs on chrome v8
-                engine which converts javascript code into machine code, it is
-                highly scalable, lightweight, fast, and data-intensive. Working
-                of Node.
+                Ans : It is a used as backend service where javascript works on
+                the server-side of the application. This way javascript is used
+                on both frontend and backend. Node. js runs on chrome v8 engine
+                which converts javascript code into machine code, it is highly
+                scalable, lightweight, fast, and data-intensive. Working of
+                Node.
               </h6>
             </div>
             <br />
