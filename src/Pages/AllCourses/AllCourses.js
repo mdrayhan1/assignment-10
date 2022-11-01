@@ -12,14 +12,13 @@ import "./AllCourses.css";
 const AllCourses = () => {
   const [courses, setCourses] = useState([]);
 
+  // load data
+
   useEffect(() => {
-    fetch(
-      "https://lerarn-more-coading-server.vercel.app/all-courses-details"
-    )
+    fetch("https://lerarn-more-coading-server.vercel.app/all-courses-details")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   });
-
 
   return (
     <div className="container all-courses text-center">
@@ -110,7 +109,7 @@ const AllCourses = () => {
               <p className="lead fs-5">
                 JavaScript is best for web-based and mobile games. It's also a
                 great language for kids to learn because it's generally easy to
-                understand and has plenty of resources 
+                understand and has plenty of resources
               </p>
             </div>
           </div>
