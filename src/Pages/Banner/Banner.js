@@ -12,18 +12,20 @@ const Banner = () => {
           <Navbar />
           <div className="col-6">
             <h1 className="title">
-              Increase Your <br /> Knowledge And Skills 
+              Increase Your <br /> Knowledge And Skills
             </h1>
             <p className="text-white text-center mt-3">
-            Develop amazing web and app experiences with tips and advice from the experts at LEARN MORE COADING?.
+              Develop amazing web and app experiences with tips and advice from
+              the experts at LEARN MORE COADING?.
               <br />
               <small className="text-white">
-              Want to enhance your website or app with the latest web development, Check What We Prepared For You!
+                Want to enhance your website or app with the latest web
+                development, Check What We Prepared For You!
               </small>
             </p>
             <Link to={"/about"}>
               <Button variant="outline-info text-success about-btn">
-                who are we?
+                Get to know us
               </Button>
             </Link>
           </div>
